@@ -1,0 +1,18 @@
+@import "ui-variables";
+
+.scrollmap .marker.marker-git {
+  left: auto;
+  right: 0;
+  width: 3px;
+  z-index: 11;
+
+  &.added {
+    background-color: @text-color-success;
+  }
+  &.modified {
+    background-color: @text-color-warning;
+  }
+  &.removed {
+    background-color: @text-color-error;
+  }
+}
