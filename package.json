@@ -20,5 +20,15 @@
         "1.0.0": "provideScrollmap"
       }
     }
+  },
+  "configSchema": {
+    "threshold": {
+      "order": 1,
+      "type": "integer",
+      "title": "Threshold",
+      "description": "Hide markers if count exceeds this value. Zero means no limit.",
+      "minimum": 0,
+      "default": 0
+    }
   }
 }
